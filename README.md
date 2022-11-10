@@ -91,6 +91,9 @@ The demo data is not the intact data (`rating` and `date` information are missin
 
 ### Running the example code
 You can find the implemented models in `/UGFraud/Demo/` directory. For example, you can run fBox using:
+
+注意：运行之前要首先运行`demo_pre.py`生成所需的`Yalp_graph_data.json`数据集
+
 ```bash
 python eval_fBox.py 
 ```
